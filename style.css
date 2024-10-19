@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #F8F5F5;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #FFFFFF; 
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top:200px;
+   
+
+  
+   
+}
+img{
+     width: 450px;
+    height: 350px;
+    border-radius: 5px;
+}
+h1{
+    font-size: medium;
+    position: absolute;
+    top:25px;
+    left:30px;
+    color:white
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    top:20px;
+    right:30px;
+ 
+}
+
+.photo1{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top:90px;
+    left:28px
+    
+}
+.photo2{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top:170px;
+    left:28px;
+    
+}
+.photo3{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    top:250px;
+    left:28px;
+    
+}
+.content1 .name{
+    position: absolute;
+    top:90px;
+    left:100px
+}
+.content1 .text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: small;
+    position: absolute;
+    top:110px;
+    left:100px
+}
+.content2 .name{
+    position: absolute;
+    top:250px;
+    left:100px
+}
+.content2 .text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: small;
+    position: absolute;
+    top:270px;
+    left:100px
+}
+.content3 .name{
+    position: absolute;
+    top:170px;
+    left:100px
+}
+.content3 .text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: small;
+    position: absolute;
+    top:190px;
+    left:100px
+}
+.content1 button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top:105px;
+    left:332px
+}
+.content2 button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top:185px;
+    left:332px
+}
+.content3 button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top:265px;
+    left:332px
+}
